@@ -1,0 +1,6 @@
+framework module Pods_FTLTests {
+  umbrella header "Pods-FTLTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

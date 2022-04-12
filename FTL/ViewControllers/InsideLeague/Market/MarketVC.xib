@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Poppins-Medium.ttf">
+            <string>Poppins-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MarketVC" customModule="FTL" customModuleProvider="target">
+            <connections>
+                <outlet property="contentView" destination="CMv-aU-I1U" id="ozO-bw-CWO"/>
+                <outlet property="searcBtn" destination="VBP-GN-Uvw" id="Nfe-Xa-pKd"/>
+                <outlet property="searchBtnImage" destination="VbN-WM-nL2" id="WwD-Dw-rZz"/>
+                <outlet property="titleLbl" destination="baO-WV-s7a" id="yLt-OR-VwI"/>
+                <outlet property="view" destination="Ogd-gL-UKS" id="MUt-XP-wI5"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="Ogd-gL-UKS">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jlH-PZ-8Zm" userLabel="NavBarView">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="82"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="India Market" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="baO-WV-s7a">
+                            <rect key="frame" x="16" y="46" width="114" height="27"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="27" id="ovv-t7-28W"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Poppins-Medium" family="Poppins" pointSize="18"/>
+                            <color key="textColor" red="0.1019607843" green="0.1019607843" blue="0.1019607843" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="82" id="0CX-Oj-Vrf"/>
+                        <constraint firstItem="baO-WV-s7a" firstAttribute="leading" secondItem="jlH-PZ-8Zm" secondAttribute="leading" constant="16" id="AqF-rc-rcs"/>
+                        <constraint firstItem="baO-WV-s7a" firstAttribute="top" secondItem="jlH-PZ-8Zm" secondAttribute="top" constant="46" id="E8Z-qR-6bu"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CMv-aU-I1U">
+                    <rect key="frame" x="0.0" y="82" width="414" height="814"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="whitebgcard" translatesAutoresizingMaskIntoConstraints="NO" id="stc-YT-o6g">
+                            <rect key="frame" x="0.0" y="44" width="414" height="770"/>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="stc-YT-o6g" firstAttribute="leading" secondItem="CMv-aU-I1U" secondAttribute="leading" id="6f2-Vf-dKF"/>
+                        <constraint firstItem="stc-YT-o6g" firstAttribute="top" secondItem="CMv-aU-I1U" secondAttribute="top" constant="44" id="Dvr-BB-KKY"/>
+                        <constraint firstAttribute="trailing" secondItem="stc-YT-o6g" secondAttribute="trailing" id="N2R-du-jl6"/>
+                        <constraint firstAttribute="bottom" secondItem="stc-YT-o6g" secondAttribute="bottom" id="guj-na-wTv"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VBP-GN-Uvw">
+                    <rect key="frame" x="342" y="782" width="48" height="48"/>
+                    <color key="backgroundColor" red="0.45098039215686275" green="0.23921568627450979" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="48" id="EaR-LN-iRH"/>
+                        <constraint firstAttribute="height" constant="48" id="ahE-d0-mUO"/>
+                    </constraints>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="24"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="searchBtnActionWithSender:" destination="-1" eventType="touchUpInside" id="mwf-P7-LLV"/>
+                    </connections>
+                </button>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="searchWhite" translatesAutoresizingMaskIntoConstraints="NO" id="VbN-WM-nL2">
+                    <rect key="frame" x="356" y="796" width="20" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="20" id="VbS-nD-lF5"/>
+                        <constraint firstAttribute="width" constant="20" id="ZRA-Bz-ADa"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="hz1-hg-fZU"/>
+            <color key="backgroundColor" red="0.8980392157" green="0.8980392157" blue="0.8980392157" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="hz1-hg-fZU" firstAttribute="bottom" secondItem="VBP-GN-Uvw" secondAttribute="bottom" constant="32" id="0bf-S1-Hcq"/>
+                <constraint firstItem="jlH-PZ-8Zm" firstAttribute="top" secondItem="Ogd-gL-UKS" secondAttribute="top" id="9zO-Rl-Vs8"/>
+                <constraint firstItem="CMv-aU-I1U" firstAttribute="top" secondItem="jlH-PZ-8Zm" secondAttribute="bottom" id="ACA-iS-VHb"/>
+                <constraint firstItem="CMv-aU-I1U" firstAttribute="leading" secondItem="Ogd-gL-UKS" secondAttribute="leading" id="D3C-vE-DUr"/>
+                <constraint firstAttribute="bottom" secondItem="CMv-aU-I1U" secondAttribute="bottom" id="Ftf-6K-SXh"/>
+                <constraint firstItem="VbN-WM-nL2" firstAttribute="centerY" secondItem="VBP-GN-Uvw" secondAttribute="centerY" id="Fxr-Q9-993"/>
+                <constraint firstItem="jlH-PZ-8Zm" firstAttribute="leading" secondItem="Ogd-gL-UKS" secondAttribute="leading" id="XxT-WS-Fnq"/>
+                <constraint firstItem="VbN-WM-nL2" firstAttribute="centerX" secondItem="VBP-GN-Uvw" secondAttribute="centerX" id="jqe-MK-Szx"/>
+                <constraint firstItem="hz1-hg-fZU" firstAttribute="trailing" secondItem="VBP-GN-Uvw" secondAttribute="trailing" constant="24" id="nJF-h1-iom"/>
+                <constraint firstItem="jlH-PZ-8Zm" firstAttribute="trailing" secondItem="Ogd-gL-UKS" secondAttribute="trailing" id="rAY-yS-s0u"/>
+                <constraint firstAttribute="trailing" secondItem="CMv-aU-I1U" secondAttribute="trailing" id="zAI-5W-ATZ"/>
+            </constraints>
+            <nil key="simulatedBottomBarMetrics"/>
+            <point key="canvasLocation" x="26.086956521739133" y="50.223214285714285"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="searchWhite" width="20" height="20"/>
+        <image name="whitebgcard" width="360" height="509"/>
+    </resources>
+</document>

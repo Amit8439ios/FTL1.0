@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Poppins-Medium.ttf">
+            <string>Poppins-Medium</string>
+        </array>
+        <array key="Poppins-Regular.ttf">
+            <string>Poppins-Regular</string>
+        </array>
+        <array key="Poppins-SemiBold.ttf">
+            <string>Poppins-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LowBalanceAlertVC" customModule="FTL" customModuleProvider="target">
+            <connections>
+                <outlet property="descriptionImg" destination="8UF-9x-CdX" id="uY8-4K-Tyw"/>
+                <outlet property="subTitle" destination="tyN-99-TNe" id="Sav-a9-dP4"/>
+                <outlet property="titleLbl" destination="GV7-q3-K4v" id="7W1-WN-bRp"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3WO-UN-Ibq" customClass="RoundCornerView" customModule="FTL" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="246" width="414" height="490"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="3D-uv-16-805x805 2" translatesAutoresizingMaskIntoConstraints="NO" id="8UF-9x-CdX">
+                            <rect key="frame" x="60" y="20" width="294" height="245"/>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Oh no! Looks like you don't have enough balance to enter this league" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GV7-q3-K4v">
+                            <rect key="frame" x="50" y="289" width="314" height="42"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="42" id="gBL-h7-793"/>
+                                <constraint firstAttribute="width" relation="lessThanOrEqual" constant="314" id="zZd-x7-hU4"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Poppins-Medium" family="Poppins" pointSize="14"/>
+                            <color key="textColor" red="0.1019607843" green="0.1019607843" blue="0.1019607843" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Topup your wallet balance" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tyN-99-TNe">
+                            <rect key="frame" x="90.666666666666686" y="339" width="233" height="36"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="233" id="7vg-eO-sSc"/>
+                                <constraint firstAttribute="height" constant="36" id="WwB-s1-FS4"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="12"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iY5-tq-yQQ">
+                            <rect key="frame" x="107" y="385" width="200" height="48"/>
+                            <color key="backgroundColor" red="0.45098039220000002" green="0.23921568630000001" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="48" id="Dvk-n0-djF"/>
+                                <constraint firstAttribute="width" constant="200" id="bfb-Ox-133"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Poppins-SemiBold" family="Poppins" pointSize="14"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" title="ADD MONEY">
+                                <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                    <real key="value" value="24"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="addMoneyBtnTappedWithSender:" destination="-1" eventType="touchUpInside" id="Xkw-xX-ZNY"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="GV7-q3-K4v" firstAttribute="leading" secondItem="3WO-UN-Ibq" secondAttribute="leading" constant="50" id="1W9-4z-zce"/>
+                        <constraint firstAttribute="trailing" secondItem="8UF-9x-CdX" secondAttribute="trailing" constant="60" id="6Vz-6V-MiU"/>
+                        <constraint firstItem="tyN-99-TNe" firstAttribute="top" secondItem="GV7-q3-K4v" secondAttribute="bottom" constant="8" id="Ehh-aI-pQR"/>
+                        <constraint firstAttribute="bottom" secondItem="iY5-tq-yQQ" secondAttribute="bottom" constant="57" id="S5k-Gh-V1e"/>
+                        <constraint firstAttribute="trailing" secondItem="GV7-q3-K4v" secondAttribute="trailing" constant="50" id="SF4-w2-xL5"/>
+                        <constraint firstItem="iY5-tq-yQQ" firstAttribute="top" secondItem="tyN-99-TNe" secondAttribute="bottom" constant="10" id="foJ-Ic-5Lc"/>
+                        <constraint firstItem="tyN-99-TNe" firstAttribute="centerX" secondItem="GV7-q3-K4v" secondAttribute="centerX" id="krO-Zj-lw4"/>
+                        <constraint firstItem="GV7-q3-K4v" firstAttribute="centerX" secondItem="8UF-9x-CdX" secondAttribute="centerX" id="rdO-LO-SSA"/>
+                        <constraint firstItem="iY5-tq-yQQ" firstAttribute="centerX" secondItem="tyN-99-TNe" secondAttribute="centerX" id="vBP-KO-zoq"/>
+                        <constraint firstItem="8UF-9x-CdX" firstAttribute="leading" secondItem="3WO-UN-Ibq" secondAttribute="leading" constant="60" id="w0Q-87-1PF"/>
+                        <constraint firstItem="8UF-9x-CdX" firstAttribute="top" secondItem="3WO-UN-Ibq" secondAttribute="top" constant="20" id="wLg-aF-nGa"/>
+                        <constraint firstItem="GV7-q3-K4v" firstAttribute="top" secondItem="8UF-9x-CdX" secondAttribute="bottom" constant="24" id="zdm-m3-i9b"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="24"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.75" colorSpace="custom" customColorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="3WO-UN-Ibq" secondAttribute="bottom" id="RyQ-2Z-igc"/>
+                <constraint firstItem="3WO-UN-Ibq" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="XKT-Ma-WkX"/>
+                <constraint firstItem="3WO-UN-Ibq" firstAttribute="height" secondItem="i5M-Pr-FkT" secondAttribute="height" multiplier="0.665761" id="agn-Gy-2aM"/>
+                <constraint firstItem="3WO-UN-Ibq" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="oBX-dI-48q"/>
+            </constraints>
+            <point key="canvasLocation" x="137.68115942028987" y="80.706521739130437"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="3D-uv-16-805x805 2" width="200" height="200"/>
+    </resources>
+</document>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Poppins-Medium.ttf">
+            <string>Poppins-Medium</string>
+        </array>
+        <array key="Poppins-Regular.ttf">
+            <string>Poppins-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="60" id="jU5-kw-OWC" customClass="OrdersCell" customModule="FTL" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="60"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="jU5-kw-OWC" id="sZo-Qm-lvs">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="60"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sell" translatesAutoresizingMaskIntoConstraints="NO" id="d9G-TU-J6t">
+                        <rect key="frame" x="288" y="24" width="12" height="12"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="12" id="32G-DD-ask"/>
+                            <constraint firstAttribute="height" constant="12" id="vOG-PZ-4Rv"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Reliance Industries" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XM3-5B-VDA">
+                        <rect key="frame" x="20" y="12" width="167" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="fPZ-lX-3Uj"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Poppins-Medium" family="Poppins" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="710.00" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rkG-LI-UbG">
+                        <rect key="frame" x="192" y="12" width="80" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="Qy3-cp-iSX"/>
+                            <constraint firstAttribute="width" constant="80" id="dYs-k7-FxJ"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Poppins-Medium" family="Poppins" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="QTY 50 | BUY Price 720" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GP1-RO-Oag">
+                        <rect key="frame" x="20" y="35" width="108.5" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="15" id="9gm-xS-Zdg"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="10"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RFG-uF-SmC">
+                        <rect key="frame" x="0.0" y="59" width="320" height="1"/>
+                        <color key="backgroundColor" red="0.96862745100000003" green="0.96862745100000003" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="L8t-en-Pqi"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Poppins-Medium" family="Poppins" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Feb 12, 2022" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CAb-KB-LBq">
+                        <rect key="frame" x="214" y="35" width="58" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="15" id="RgM-jt-LY8"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Poppins-Regular" family="Poppins" pointSize="10"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="d9G-TU-J6t" secondAttribute="trailing" constant="20" id="5a7-lI-JkL"/>
+                    <constraint firstItem="XM3-5B-VDA" firstAttribute="leading" secondItem="sZo-Qm-lvs" secondAttribute="leading" constant="20" id="6VW-FU-RDg"/>
+                    <constraint firstAttribute="trailing" secondItem="RFG-uF-SmC" secondAttribute="trailing" id="Img-hJ-vIT"/>
+                    <constraint firstItem="d9G-TU-J6t" firstAttribute="leading" secondItem="CAb-KB-LBq" secondAttribute="trailing" constant="16" id="Nbj-YA-VJ3"/>
+                    <constraint firstAttribute="bottom" secondItem="RFG-uF-SmC" secondAttribute="bottom" id="NoC-Sq-Ncx"/>
+                    <constraint firstItem="rkG-LI-UbG" firstAttribute="top" secondItem="sZo-Qm-lvs" secondAttribute="top" constant="12" id="Pm5-wj-quB"/>
+                    <constraint firstItem="GP1-RO-Oag" firstAttribute="top" secondItem="XM3-5B-VDA" secondAttribute="bottom" constant="2" id="QxA-ah-eec"/>
+                    <constraint firstItem="XM3-5B-VDA" firstAttribute="top" secondItem="sZo-Qm-lvs" secondAttribute="top" constant="12" id="VN5-IK-5kN"/>
+                    <constraint firstItem="GP1-RO-Oag" firstAttribute="leading" secondItem="XM3-5B-VDA" secondAttribute="leading" id="ZQI-XX-Kke"/>
+                    <constraint firstItem="CAb-KB-LBq" firstAttribute="centerY" secondItem="GP1-RO-Oag" secondAttribute="centerY" id="c84-GP-cXU"/>
+                    <constraint firstItem="d9G-TU-J6t" firstAttribute="centerY" secondItem="sZo-Qm-lvs" secondAttribute="centerY" id="fwt-Vg-MlY"/>
+                    <constraint firstItem="d9G-TU-J6t" firstAttribute="leading" secondItem="rkG-LI-UbG" secondAttribute="trailing" constant="16" id="wq7-FY-RXr"/>
+                    <constraint firstItem="rkG-LI-UbG" firstAttribute="leading" secondItem="XM3-5B-VDA" secondAttribute="trailing" constant="5" id="yjH-vL-fq9"/>
+                    <constraint firstItem="RFG-uF-SmC" firstAttribute="leading" secondItem="sZo-Qm-lvs" secondAttribute="leading" id="zec-uj-sNL"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="vv7-7m-Cxq"/>
+            <connections>
+                <outlet property="amountLbl" destination="rkG-LI-UbG" id="Ldg-hU-hcC"/>
+                <outlet property="dateLbl" destination="CAb-KB-LBq" id="Zcs-iX-xbX"/>
+                <outlet property="descLbl" destination="GP1-RO-Oag" id="K3N-BQ-Bam"/>
+                <outlet property="flowImg" destination="d9G-TU-J6t" id="hu8-8K-Ksi"/>
+                <outlet property="lineLbl" destination="RFG-uF-SmC" id="G2u-IC-xHD"/>
+                <outlet property="titleLbl" destination="XM3-5B-VDA" id="Loa-d9-lug"/>
+            </connections>
+            <point key="canvasLocation" x="131.8840579710145" y="72.321428571428569"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="sell" width="60" height="60"/>
+    </resources>
+</document>
