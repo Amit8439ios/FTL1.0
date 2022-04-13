@@ -78,7 +78,7 @@
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <connections>
                 <outlet property="img" destination="5eY-ko-6l7" id="TfI-x1-xrT"/>
-                <outlet property="lblAmount" destination="xym-HA-Czt" id="i4a-At-od1"/>
+                <outlet property="lblAmount" destination="xym-HA-Czt" id="cSQ-vw-DxB"/>
                 <outlet property="transactionDate" destination="LVh-QY-k8a" id="Xnn-vA-9HG"/>
                 <outlet property="transactionName" destination="obv-Gw-POf" id="zwX-QU-pY4"/>
             </connections>

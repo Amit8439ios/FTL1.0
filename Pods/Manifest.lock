@@ -2,12 +2,14 @@ PODS:
   - Alamofire (5.4.4)
   - IQKeyboardManagerSwift (6.5.8)
   - Loaf (0.7.0)
+  - MBProgressHUD (1.2.0)
   - SwiftyJSON (5.0.1)
 
 DEPENDENCIES:
   - Alamofire
   - IQKeyboardManagerSwift
   - Loaf
+  - MBProgressHUD
   - SwiftyJSON
 
 SPEC REPOS:
@@ -15,14 +17,16 @@ SPEC REPOS:
     - Alamofire
     - IQKeyboardManagerSwift
     - Loaf
+    - MBProgressHUD
     - SwiftyJSON
 
 SPEC CHECKSUMS:
   Alamofire: f3b09a368f1582ab751b3fff5460276e0d2cf5c9
   IQKeyboardManagerSwift: 8139150a3c90a915a413d72a8a3e8634c2d3278b
   Loaf: d69937cd00649f3fa260beb8b7aef0a1feb861ef
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
   SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
 
-PODFILE CHECKSUM: 3f1c6486a98d1b9dee04b3a5d48cffe45e3eac90
+PODFILE CHECKSUM: bf4bf939da4121b9fd398e5db8ab86867c4286ca
 
-COCOAPODS: 1.11.2
+COCOAPODS: 1.10.2

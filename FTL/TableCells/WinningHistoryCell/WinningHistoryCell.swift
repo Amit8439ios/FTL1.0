@@ -12,7 +12,7 @@ class WinningHistoryCell: UITableViewCell {
     @IBOutlet var img: UIImageView!
     @IBOutlet var transactionName: UILabel!
     @IBOutlet var transactionDate: UILabel!
-    @IBOutlet var lblAmount: UIView!
+    @IBOutlet var lblAmount: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()

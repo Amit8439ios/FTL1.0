@@ -11,6 +11,7 @@ target 'FTL' do
 	pod 'SwiftyJSON'
 	pod 'Loaf'
 	pod 'IQKeyboardManagerSwift'
+	pod 'MBProgressHUD'
 
 
   target 'FTLTests' do

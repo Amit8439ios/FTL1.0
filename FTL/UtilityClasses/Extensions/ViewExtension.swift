@@ -265,6 +265,10 @@ extension UIView {
          mask.path = path.cgPath
          self.layer.mask = mask
     }
+    
+    @objc func corner(view:UIView){
+        view.layer.cornerRadius = view.bounds.height/2
+    }
 
 }
 @IBDesignable

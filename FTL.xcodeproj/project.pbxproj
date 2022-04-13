@@ -8,6 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		1BCD68FEA8CCB84630BF3E1A /* Pods_FTL_FTLUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F236705E2FCDD6DE5D8962C /* Pods_FTL_FTLUITests.framework */; };
+		394248A0280548FC00907B4F /* WithdrawToBankVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39424890280548FC00907B4F /* WithdrawToBankVC.swift */; };
+		394248A3280548FC00907B4F /* WinningHistoryVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39424893280548FC00907B4F /* WinningHistoryVC.xib */; };
+		394248A4280548FC00907B4F /* TransactionHistoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39424894280548FC00907B4F /* TransactionHistoryVC.swift */; };
+		394248A6280548FC00907B4F /* RedeemWinningPopUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39424896280548FC00907B4F /* RedeemWinningPopUpVC.swift */; };
+		394248A7280548FC00907B4F /* AddMoneyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39424897280548FC00907B4F /* AddMoneyVC.swift */; };
+		394248A8280548FC00907B4F /* WinningHistoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39424898280548FC00907B4F /* WinningHistoryVC.swift */; };
+		394248A9280548FC00907B4F /* RedeemWinningPopUpVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39424899280548FC00907B4F /* RedeemWinningPopUpVC.xib */; };
+		394248AA280548FC00907B4F /* AddMoneyVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3942489A280548FC00907B4F /* AddMoneyVC.xib */; };
+		394248AB280548FC00907B4F /* TransactionHistoryVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3942489B280548FC00907B4F /* TransactionHistoryVC.xib */; };
+		394248AC280548FC00907B4F /* BankKYCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3942489C280548FC00907B4F /* BankKYCVC.swift */; };
+		394248AD280548FC00907B4F /* WithdrawToBankVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3942489D280548FC00907B4F /* WithdrawToBankVC.xib */; };
+		394248AE280548FC00907B4F /* BankKYCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3942489E280548FC00907B4F /* BankKYCVC.xib */; };
+		394248B028054B6000907B4F /* WalletVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 394248AF28054B6000907B4F /* WalletVC.xib */; };
+		394248B528054D2900907B4F /* TransferToWalletVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394248B328054D2900907B4F /* TransferToWalletVC.swift */; };
+		394248B628054D2900907B4F /* TransferToWalletVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 394248B428054D2900907B4F /* TransferToWalletVC.xib */; };
+		394248B828054E6700907B4F /* CFSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 394248B728054E6700907B4F /* CFSDK.xcframework */; };
+		394248BA28054EC100907B4F /* WinningHistoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394248B928054EC100907B4F /* WinningHistoryModel.swift */; };
+		394248BC28054F0300907B4F /* ButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394248BB28054F0300907B4F /* ButtonExtension.swift */; };
+		394248BE28054F1100907B4F /* LableExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394248BD28054F1100907B4F /* LableExtension.swift */; };
+		394248C02805538800907B4F /* TransactionHoistoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394248BF2805538800907B4F /* TransactionHoistoryModel.swift */; };
+		394248C12805563A00907B4F /* WalletVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394248B128054B7A00907B4F /* WalletVC.swift */; };
 		3956717C27E7BABF001C058D /* UserDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3956717A27E7BABF001C058D /* UserDetailsVC.swift */; };
 		3956717D27E7BABF001C058D /* UserDetailsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3956717B27E7BABF001C058D /* UserDetailsVC.xib */; };
 		3956717F27E83A0B001C058D /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3956717E27E83A0B001C058D /* GradientView.swift */; };
@@ -16,7 +37,6 @@
 		39923F6727E733930067CE0F /* OtpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39923F6527E733920067CE0F /* OtpVC.swift */; };
 		39923F6827E733930067CE0F /* OtpVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39923F6627E733920067CE0F /* OtpVC.xib */; };
 		39923F6A27E7491A0067CE0F /* ApiConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39923F6927E7491A0067CE0F /* ApiConstants.swift */; };
-		399CCDFC27F0698300796644 /* WinningHistoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399CCDFB27F0698300796644 /* WinningHistoryModel.swift */; };
 		399CCE0127F069AC00796644 /* WinningHistoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399CCDFD27F069AB00796644 /* WinningHistoryCell.swift */; };
 		399CCE0227F069AC00796644 /* TransactionHistoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399CCDFE27F069AB00796644 /* TransactionHistoryCell.swift */; };
 		399CCE0327F069AC00796644 /* WinningHistoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 399CCDFF27F069AB00796644 /* WinningHistoryCell.xib */; };
@@ -25,22 +45,6 @@
 		399CCE0D27F06A2D00796644 /* HowToPlayVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 399CCE0927F06A2D00796644 /* HowToPlayVC.xib */; };
 		399CCE0E27F06A2D00796644 /* ProfileVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 399CCE0A27F06A2D00796644 /* ProfileVC.xib */; };
 		399CCE0F27F06A2D00796644 /* HowToPlayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399CCE0B27F06A2D00796644 /* HowToPlayVC.swift */; };
-		399CCE2127F06A3800796644 /* WalletVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 399CCE1127F06A3800796644 /* WalletVC.xib */; };
-		399CCE2227F06A3800796644 /* WithdrawToBankVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399CCE1227F06A3800796644 /* WithdrawToBankVC.swift */; };
-		399CCE2327F06A3800796644 /* TransferToWalletVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399CCE1327F06A3800796644 /* TransferToWalletVC.swift */; };
-		399CCE2427F06A3800796644 /* TransferToWalletVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 399CCE1427F06A3800796644 /* TransferToWalletVC.xib */; };
-		399CCE2527F06A3800796644 /* WinningHistoryVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 399CCE1527F06A3800796644 /* WinningHistoryVC.xib */; };
-		399CCE2627F06A3800796644 /* TransactionHistoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399CCE1627F06A3800796644 /* TransactionHistoryVC.swift */; };
-		399CCE2727F06A3800796644 /* WalletVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399CCE1727F06A3800796644 /* WalletVC.swift */; };
-		399CCE2827F06A3800796644 /* RedeemWinningPopUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399CCE1827F06A3800796644 /* RedeemWinningPopUpVC.swift */; };
-		399CCE2927F06A3800796644 /* AddMoneyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399CCE1927F06A3800796644 /* AddMoneyVC.swift */; };
-		399CCE2A27F06A3800796644 /* WinningHistoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399CCE1A27F06A3800796644 /* WinningHistoryVC.swift */; };
-		399CCE2B27F06A3800796644 /* RedeemWinningPopUpVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 399CCE1B27F06A3800796644 /* RedeemWinningPopUpVC.xib */; };
-		399CCE2C27F06A3800796644 /* AddMoneyVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 399CCE1C27F06A3800796644 /* AddMoneyVC.xib */; };
-		399CCE2D27F06A3800796644 /* TransactionHistoryVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 399CCE1D27F06A3800796644 /* TransactionHistoryVC.xib */; };
-		399CCE2E27F06A3800796644 /* BankKYCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 399CCE1E27F06A3800796644 /* BankKYCVC.swift */; };
-		399CCE2F27F06A3800796644 /* WithdrawToBankVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 399CCE1F27F06A3800796644 /* WithdrawToBankVC.xib */; };
-		399CCE3027F06A3800796644 /* BankKYCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 399CCE2027F06A3800796644 /* BankKYCVC.xib */; };
 		39B3D4B727E5D0DC00F99B69 /* Poppins-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 39B3D4A427E5D0DC00F99B69 /* Poppins-ExtraLight.ttf */; };
 		39B3D4B827E5D0DC00F99B69 /* Poppins-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 39B3D4A527E5D0DC00F99B69 /* Poppins-ThinItalic.ttf */; };
 		39B3D4B927E5D0DC00F99B69 /* Poppins-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 39B3D4A627E5D0DC00F99B69 /* Poppins-ExtraLightItalic.ttf */; };
@@ -175,6 +179,27 @@
 /* Begin PBXFileReference section */
 		2F236705E2FCDD6DE5D8962C /* Pods_FTL_FTLUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FTL_FTLUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		38C3C0AE6FA9A005B3784FFF /* Pods-FTL.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FTL.release.xcconfig"; path = "Target Support Files/Pods-FTL/Pods-FTL.release.xcconfig"; sourceTree = "<group>"; };
+		39424890280548FC00907B4F /* WithdrawToBankVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WithdrawToBankVC.swift; sourceTree = "<group>"; };
+		39424893280548FC00907B4F /* WinningHistoryVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WinningHistoryVC.xib; sourceTree = "<group>"; };
+		39424894280548FC00907B4F /* TransactionHistoryVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionHistoryVC.swift; sourceTree = "<group>"; };
+		39424896280548FC00907B4F /* RedeemWinningPopUpVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RedeemWinningPopUpVC.swift; sourceTree = "<group>"; };
+		39424897280548FC00907B4F /* AddMoneyVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddMoneyVC.swift; sourceTree = "<group>"; };
+		39424898280548FC00907B4F /* WinningHistoryVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WinningHistoryVC.swift; sourceTree = "<group>"; };
+		39424899280548FC00907B4F /* RedeemWinningPopUpVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RedeemWinningPopUpVC.xib; sourceTree = "<group>"; };
+		3942489A280548FC00907B4F /* AddMoneyVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddMoneyVC.xib; sourceTree = "<group>"; };
+		3942489B280548FC00907B4F /* TransactionHistoryVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TransactionHistoryVC.xib; sourceTree = "<group>"; };
+		3942489C280548FC00907B4F /* BankKYCVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BankKYCVC.swift; sourceTree = "<group>"; };
+		3942489D280548FC00907B4F /* WithdrawToBankVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WithdrawToBankVC.xib; sourceTree = "<group>"; };
+		3942489E280548FC00907B4F /* BankKYCVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BankKYCVC.xib; sourceTree = "<group>"; };
+		394248AF28054B6000907B4F /* WalletVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = WalletVC.xib; path = "../../../../../../../../Downloads/RTL_iOS-6April2022/RTL_iOS-UIBranch-f977402201141aaa172a612a1447f430a9852d31/FTL/ViewControllers/Wallet/WalletVC.xib"; sourceTree = "<group>"; };
+		394248B128054B7A00907B4F /* WalletVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WalletVC.swift; path = "../../../../../../../../Downloads/RTL_iOS-6April2022/RTL_iOS-UIBranch-f977402201141aaa172a612a1447f430a9852d31/FTL/ViewControllers/Wallet/WalletVC.swift"; sourceTree = "<group>"; };
+		394248B328054D2900907B4F /* TransferToWalletVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TransferToWalletVC.swift; path = "../../../../../../../../Downloads/RTL_iOS-6April2022/RTL_iOS-UIBranch-f977402201141aaa172a612a1447f430a9852d31/FTL/ViewControllers/Wallet/TransferToWalletVC.swift"; sourceTree = "<group>"; };
+		394248B428054D2900907B4F /* TransferToWalletVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TransferToWalletVC.xib; path = "../../../../../../../../Downloads/RTL_iOS-6April2022/RTL_iOS-UIBranch-f977402201141aaa172a612a1447f430a9852d31/FTL/ViewControllers/Wallet/TransferToWalletVC.xib"; sourceTree = "<group>"; };
+		394248B728054E6700907B4F /* CFSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = CFSDK.xcframework; sourceTree = "<group>"; };
+		394248B928054EC100907B4F /* WinningHistoryModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WinningHistoryModel.swift; path = ../../../../FTL_11April/FTL/Models/WinningHistoryModel.swift; sourceTree = "<group>"; };
+		394248BB28054F0300907B4F /* ButtonExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonExtension.swift; sourceTree = "<group>"; };
+		394248BD28054F1100907B4F /* LableExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LableExtension.swift; sourceTree = "<group>"; };
+		394248BF2805538800907B4F /* TransactionHoistoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionHoistoryModel.swift; sourceTree = "<group>"; };
 		3956717A27E7BABF001C058D /* UserDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailsVC.swift; sourceTree = "<group>"; };
 		3956717B27E7BABF001C058D /* UserDetailsVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserDetailsVC.xib; sourceTree = "<group>"; };
 		3956717E27E83A0B001C058D /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
@@ -183,7 +208,6 @@
 		39923F6527E733920067CE0F /* OtpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtpVC.swift; sourceTree = "<group>"; };
 		39923F6627E733920067CE0F /* OtpVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OtpVC.xib; sourceTree = "<group>"; };
 		39923F6927E7491A0067CE0F /* ApiConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiConstants.swift; sourceTree = "<group>"; };
-		399CCDFB27F0698300796644 /* WinningHistoryModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WinningHistoryModel.swift; sourceTree = "<group>"; };
 		399CCDFD27F069AB00796644 /* WinningHistoryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WinningHistoryCell.swift; sourceTree = "<group>"; };
 		399CCDFE27F069AB00796644 /* TransactionHistoryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionHistoryCell.swift; sourceTree = "<group>"; };
 		399CCDFF27F069AB00796644 /* WinningHistoryCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WinningHistoryCell.xib; sourceTree = "<group>"; };
@@ -192,22 +216,6 @@
 		399CCE0927F06A2D00796644 /* HowToPlayVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HowToPlayVC.xib; sourceTree = "<group>"; };
 		399CCE0A27F06A2D00796644 /* ProfileVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProfileVC.xib; sourceTree = "<group>"; };
 		399CCE0B27F06A2D00796644 /* HowToPlayVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HowToPlayVC.swift; sourceTree = "<group>"; };
-		399CCE1127F06A3800796644 /* WalletVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WalletVC.xib; sourceTree = "<group>"; };
-		399CCE1227F06A3800796644 /* WithdrawToBankVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WithdrawToBankVC.swift; sourceTree = "<group>"; };
-		399CCE1327F06A3800796644 /* TransferToWalletVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransferToWalletVC.swift; sourceTree = "<group>"; };
-		399CCE1427F06A3800796644 /* TransferToWalletVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TransferToWalletVC.xib; sourceTree = "<group>"; };
-		399CCE1527F06A3800796644 /* WinningHistoryVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WinningHistoryVC.xib; sourceTree = "<group>"; };
-		399CCE1627F06A3800796644 /* TransactionHistoryVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionHistoryVC.swift; sourceTree = "<group>"; };
-		399CCE1727F06A3800796644 /* WalletVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalletVC.swift; sourceTree = "<group>"; };
-		399CCE1827F06A3800796644 /* RedeemWinningPopUpVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RedeemWinningPopUpVC.swift; sourceTree = "<group>"; };
-		399CCE1927F06A3800796644 /* AddMoneyVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddMoneyVC.swift; sourceTree = "<group>"; };
-		399CCE1A27F06A3800796644 /* WinningHistoryVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WinningHistoryVC.swift; sourceTree = "<group>"; };
-		399CCE1B27F06A3800796644 /* RedeemWinningPopUpVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RedeemWinningPopUpVC.xib; sourceTree = "<group>"; };
-		399CCE1C27F06A3800796644 /* AddMoneyVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddMoneyVC.xib; sourceTree = "<group>"; };
-		399CCE1D27F06A3800796644 /* TransactionHistoryVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TransactionHistoryVC.xib; sourceTree = "<group>"; };
-		399CCE1E27F06A3800796644 /* BankKYCVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BankKYCVC.swift; sourceTree = "<group>"; };
-		399CCE1F27F06A3800796644 /* WithdrawToBankVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WithdrawToBankVC.xib; sourceTree = "<group>"; };
-		399CCE2027F06A3800796644 /* BankKYCVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BankKYCVC.xib; sourceTree = "<group>"; };
 		39B3D4A427E5D0DC00F99B69 /* Poppins-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraLight.ttf"; sourceTree = "<group>"; };
 		39B3D4A527E5D0DC00F99B69 /* Poppins-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ThinItalic.ttf"; sourceTree = "<group>"; };
 		39B3D4A627E5D0DC00F99B69 /* Poppins-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
@@ -337,6 +345,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7FE1E425AAC340A5B1220E0D /* Pods_FTL.framework in Frameworks */,
+				394248B828054E6700907B4F /* CFSDK.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -372,6 +381,30 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		3942488E280548FC00907B4F /* Wallet */ = {
+			isa = PBXGroup;
+			children = (
+				394248B128054B7A00907B4F /* WalletVC.swift */,
+				394248AF28054B6000907B4F /* WalletVC.xib */,
+				39424890280548FC00907B4F /* WithdrawToBankVC.swift */,
+				3942489D280548FC00907B4F /* WithdrawToBankVC.xib */,
+				394248B328054D2900907B4F /* TransferToWalletVC.swift */,
+				394248B428054D2900907B4F /* TransferToWalletVC.xib */,
+				39424898280548FC00907B4F /* WinningHistoryVC.swift */,
+				39424893280548FC00907B4F /* WinningHistoryVC.xib */,
+				39424894280548FC00907B4F /* TransactionHistoryVC.swift */,
+				3942489B280548FC00907B4F /* TransactionHistoryVC.xib */,
+				39424896280548FC00907B4F /* RedeemWinningPopUpVC.swift */,
+				39424899280548FC00907B4F /* RedeemWinningPopUpVC.xib */,
+				39424897280548FC00907B4F /* AddMoneyVC.swift */,
+				3942489A280548FC00907B4F /* AddMoneyVC.xib */,
+				3942489C280548FC00907B4F /* BankKYCVC.swift */,
+				3942489E280548FC00907B4F /* BankKYCVC.xib */,
+			);
+			name = Wallet;
+			path = Profile/Wallet;
+			sourceTree = "<group>";
+		};
 		399CCE0527F069BC00796644 /* TransactionHistoryCell */ = {
 			isa = PBXGroup;
 			children = (
@@ -399,29 +432,6 @@
 				399CCE0B27F06A2D00796644 /* HowToPlayVC.swift */,
 			);
 			path = Profile;
-			sourceTree = "<group>";
-		};
-		399CCE1027F06A3800796644 /* Wallet */ = {
-			isa = PBXGroup;
-			children = (
-				399CCE1127F06A3800796644 /* WalletVC.xib */,
-				399CCE1227F06A3800796644 /* WithdrawToBankVC.swift */,
-				399CCE1327F06A3800796644 /* TransferToWalletVC.swift */,
-				399CCE1427F06A3800796644 /* TransferToWalletVC.xib */,
-				399CCE1527F06A3800796644 /* WinningHistoryVC.xib */,
-				399CCE1627F06A3800796644 /* TransactionHistoryVC.swift */,
-				399CCE1727F06A3800796644 /* WalletVC.swift */,
-				399CCE1827F06A3800796644 /* RedeemWinningPopUpVC.swift */,
-				399CCE1927F06A3800796644 /* AddMoneyVC.swift */,
-				399CCE1A27F06A3800796644 /* WinningHistoryVC.swift */,
-				399CCE1B27F06A3800796644 /* RedeemWinningPopUpVC.xib */,
-				399CCE1C27F06A3800796644 /* AddMoneyVC.xib */,
-				399CCE1D27F06A3800796644 /* TransactionHistoryVC.xib */,
-				399CCE1E27F06A3800796644 /* BankKYCVC.swift */,
-				399CCE1F27F06A3800796644 /* WithdrawToBankVC.xib */,
-				399CCE2027F06A3800796644 /* BankKYCVC.xib */,
-			);
-			path = Wallet;
 			sourceTree = "<group>";
 		};
 		39B3D4A227E5D0DC00F99B69 /* Fonts */ = {
@@ -722,6 +732,8 @@
 		CABDEFC327EB38120093B98C /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				394248BB28054F0300907B4F /* ButtonExtension.swift */,
+				394248BD28054F1100907B4F /* LableExtension.swift */,
 				CABDEFC427EB38120093B98C /* Encodables.swift */,
 				CABDEFC527EB38120093B98C /* ViewExtension.swift */,
 				CABDEFC627EB38120093B98C /* StringExtension.swift */,
@@ -814,6 +826,7 @@
 		F9A75C3627E58C9700DDC8D5 /* FTL */ = {
 			isa = PBXGroup;
 			children = (
+				394248B728054E6700907B4F /* CFSDK.xcframework */,
 				39B3D4A227E5D0DC00F99B69 /* Fonts */,
 				F9A75C6727E58D0500DDC8D5 /* AppDelegate */,
 				F9A75C6D27E58D6B00DDC8D5 /* UtilityClasses */,
@@ -856,7 +869,8 @@
 			isa = PBXGroup;
 			children = (
 				39923F6327E6FE2F0067CE0F /* ISDCodeModel.swift */,
-				399CCDFB27F0698300796644 /* WinningHistoryModel.swift */,
+				394248B928054EC100907B4F /* WinningHistoryModel.swift */,
+				394248BF2805538800907B4F /* TransactionHoistoryModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -886,7 +900,7 @@
 				CA2CC9FD27F2CA4B0008AE95 /* Home */,
 				F9A75C6F27E58D9700DDC8D5 /* Authentication */,
 				399CCE0727F06A2D00796644 /* Profile */,
-				399CCE1027F06A3800796644 /* Wallet */,
+				3942488E280548FC00907B4F /* Wallet */,
 				CA356BAC27F5A68D0023E194 /* BaseController.swift */,
 			);
 			path = ViewControllers;
@@ -1017,6 +1031,7 @@
 				CA2CCA3627F2CC690008AE95 /* Sidebar.xib in Resources */,
 				39B3D4C627E5D0DC00F99B69 /* Poppins-Thin.ttf in Resources */,
 				CAAC80DC27FAC7CF007007AB /* HoldingsVC.xib in Resources */,
+				394248B028054B6000907B4F /* WalletVC.xib in Resources */,
 				39B3D4C927E5D0DC00F99B69 /* Poppins-MediumItalic.ttf in Resources */,
 				CA356BAB27F56E540023E194 /* WatchListCell.xib in Resources */,
 				39B3D4C127E5D0DC00F99B69 /* OFL.txt in Resources */,
@@ -1024,21 +1039,20 @@
 				39B3D4B927E5D0DC00F99B69 /* Poppins-ExtraLightItalic.ttf in Resources */,
 				CA39FD6727F2FDC200CC12FD /* LeagueTypeBtnCell.xib in Resources */,
 				39B3D4C027E5D0DC00F99B69 /* Poppins-BlackItalic.ttf in Resources */,
-				399CCE2427F06A3800796644 /* TransferToWalletVC.xib in Resources */,
 				39B3D4B727E5D0DC00F99B69 /* Poppins-ExtraLight.ttf in Resources */,
+				394248A9280548FC00907B4F /* RedeemWinningPopUpVC.xib in Resources */,
 				399CCE0D27F06A2D00796644 /* HowToPlayVC.xib in Resources */,
 				CA2CCA2027F2CC1C0008AE95 /* YourLeagueCell.xib in Resources */,
 				CA2CCA1727F2CA4B0008AE95 /* LeagueListVC.xib in Resources */,
 				39B3D4C727E5D0DC00F99B69 /* Poppins-SemiBold.ttf in Resources */,
-				399CCE3027F06A3800796644 /* BankKYCVC.xib in Resources */,
 				CA2CCA2227F2CC1C0008AE95 /* PreviouLeagueCell.xib in Resources */,
 				CAD9C41D27FB22BC00B7A484 /* HoldingsCell.xib in Resources */,
-				399CCE2F27F06A3800796644 /* WithdrawToBankVC.xib in Resources */,
+				394248AE280548FC00907B4F /* BankKYCVC.xib in Resources */,
 				39B3D4BA27E5D0DC00F99B69 /* Poppins-BoldItalic.ttf in Resources */,
 				CAD9C42327FB242C00B7A484 /* OrdersCell.xib in Resources */,
 				3956717D27E7BABF001C058D /* UserDetailsVC.xib in Resources */,
+				394248B628054D2900907B4F /* TransferToWalletVC.xib in Resources */,
 				CA39FD6B27F3308E00CC12FD /* EnterLeagueVC.xib in Resources */,
-				399CCE2127F06A3800796644 /* WalletVC.xib in Resources */,
 				CA39FD6327F2FCD000CC12FD /* LeaguesVC.xib in Resources */,
 				CA356BB327F5C4010023E194 /* MarketVC.xib in Resources */,
 				CA356BB727F5C7A80023E194 /* MarketListVC.xib in Resources */,
@@ -1047,7 +1061,6 @@
 				CA39FD7327F348F200CC12FD /* PrizebreakupVC.xib in Resources */,
 				CA2CCA0F27F2CA4B0008AE95 /* YourLeaguesVC.xib in Resources */,
 				CA39FD8027F34D8300CC12FD /* PrizebreakupCell.xib in Resources */,
-				399CCE2D27F06A3800796644 /* TransactionHistoryVC.xib in Resources */,
 				CAD8883827F86F5800EBC8BF /* InsideWatchlistVC.xib in Resources */,
 				CA2CCA2927F2CC2D0008AE95 /* SuperLeagueCell.xib in Resources */,
 				399CCE0427F069AC00796644 /* TransactionHistoryCell.xib in Resources */,
@@ -1055,15 +1068,17 @@
 				39B3D4C527E5D0DC00F99B69 /* Poppins-Black.ttf in Resources */,
 				CA39FD7727F3491300CC12FD /* LeaderBoardVC.xib in Resources */,
 				39B3D4C827E5D0DC00F99B69 /* Poppins-Italic.ttf in Resources */,
+				394248A3280548FC00907B4F /* WinningHistoryVC.xib in Resources */,
 				39B3D4BF27E5D0DC00F99B69 /* Poppins-ExtraBold.ttf in Resources */,
-				399CCE2527F06A3800796644 /* WinningHistoryVC.xib in Resources */,
 				39B3D4C327E5D0DC00F99B69 /* Poppins-LightItalic.ttf in Resources */,
 				39B3D4BD27E5D0DC00F99B69 /* Poppins-SemiBoldItalic.ttf in Resources */,
 				399CCE0327F069AC00796644 /* WinningHistoryCell.xib in Resources */,
 				CAAC80D327FAC4A7007007AB /* OrderVC.xib in Resources */,
 				CA2CCA5727F2DA620008AE95 /* LICENSE in Resources */,
+				394248AD280548FC00907B4F /* WithdrawToBankVC.xib in Resources */,
 				39B3D4C227E5D0DC00F99B69 /* Poppins-Regular.ttf in Resources */,
 				CA2CCA1A27F2CA4B0008AE95 /* HomeTabViewController.xib in Resources */,
+				394248AA280548FC00907B4F /* AddMoneyVC.xib in Resources */,
 				39B3D4BE27E5D0DC00F99B69 /* Poppins-ExtraBoldItalic.ttf in Resources */,
 				CABDEFB727EB2AB80093B98C /* Launch Screen.storyboard in Resources */,
 				39B3D4C427E5D0DC00F99B69 /* Poppins-Bold.ttf in Resources */,
@@ -1071,8 +1086,7 @@
 				CAC4CA5427FAAE76009959CD /* PortfolioVC.xib in Resources */,
 				CA5DEACD27ED80AF00B7DEF3 /* HeaderTitleCell.xib in Resources */,
 				CAAC80E127FAEF86007007AB /* InsiderLeaderBoardVC.xib in Resources */,
-				399CCE2B27F06A3800796644 /* RedeemWinningPopUpVC.xib in Resources */,
-				399CCE2C27F06A3800796644 /* AddMoneyVC.xib in Resources */,
+				394248AB280548FC00907B4F /* TransactionHistoryVC.xib in Resources */,
 				CA356BA727F56E300023E194 /* SearchingVC.xib in Resources */,
 				CA2CCA5F27F2DA620008AE95 /* README.md in Resources */,
 				39B3D4B827E5D0DC00F99B69 /* Poppins-ThinItalic.ttf in Resources */,
@@ -1210,6 +1224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				394248C12805563A00907B4F /* WalletVC.swift in Sources */,
 				399CCE0C27F06A2D00796644 /* ProfileVC.swift in Sources */,
 				CA2CCA2B27F2CC2D0008AE95 /* SuperLeagueCell.swift in Sources */,
 				CA39FD6A27F3308E00CC12FD /* EnterLeagueVC.swift in Sources */,
@@ -1228,58 +1243,60 @@
 				39923F6427E6FE2F0067CE0F /* ISDCodeModel.swift in Sources */,
 				39923F6A27E7491A0067CE0F /* ApiConstants.swift in Sources */,
 				CA2CCA5827F2DA620008AE95 /* CAPSPageMenu+UIGestureRecognizerDelegate.swift in Sources */,
-				399CCE2E27F06A3800796644 /* BankKYCVC.swift in Sources */,
+				394248AC280548FC00907B4F /* BankKYCVC.swift in Sources */,
+				394248A0280548FC00907B4F /* WithdrawToBankVC.swift in Sources */,
 				CA2CCA5E27F2DA620008AE95 /* CAPSPageMenu.swift in Sources */,
 				399CCE0227F069AC00796644 /* TransactionHistoryCell.swift in Sources */,
 				39B3D4CB27E6E59100F99B69 /* ApiManager.swift in Sources */,
+				394248BC28054F0300907B4F /* ButtonExtension.swift in Sources */,
+				394248B528054D2900907B4F /* TransferToWalletVC.swift in Sources */,
 				CA356BA627F56E300023E194 /* SearchingVC.swift in Sources */,
 				CAAC80E027FAEF86007007AB /* InsiderLeaderBoardVC.swift in Sources */,
 				CAC4CA5327FAAE76009959CD /* PortfolioVC.swift in Sources */,
+				394248A6280548FC00907B4F /* RedeemWinningPopUpVC.swift in Sources */,
 				CAE5C20627F424F90093244C /* LeaderBoardCell.swift in Sources */,
-				399CCE2927F06A3800796644 /* AddMoneyVC.swift in Sources */,
 				CAE5C20B27F44ABF0093244C /* RulesCell.swift in Sources */,
 				CA2CCA2327F2CC1C0008AE95 /* YourLeagueCell.swift in Sources */,
 				CA2CCA5A27F2DA620008AE95 /* MenuItemView.swift in Sources */,
 				CAD9C42227FB242C00B7A484 /* OrdersCell.swift in Sources */,
 				CA39FD7227F348F200CC12FD /* PrizebreakupVC.swift in Sources */,
 				3956718127E8549D001C058D /* Validation.swift in Sources */,
+				394248BE28054F1100907B4F /* LableExtension.swift in Sources */,
 				CA2CCA1027F2CA4B0008AE95 /* YourLeaguesVC.swift in Sources */,
 				CA356BB627F5C7A80023E194 /* MarketListVC.swift in Sources */,
 				CA5DEACC27ED80AF00B7DEF3 /* HeaderTitleCell.swift in Sources */,
 				CA2CCA5B27F2DA620008AE95 /* CAPSPageMenu+UIScrollViewDelegate.swift in Sources */,
 				CABDEFC927EB38130093B98C /* ViewExtension.swift in Sources */,
-				399CCE2827F06A3800796644 /* RedeemWinningPopUpVC.swift in Sources */,
-				399CCE2227F06A3800796644 /* WithdrawToBankVC.swift in Sources */,
 				CA356BAD27F5A68D0023E194 /* BaseController.swift in Sources */,
 				CA356BB227F5C4010023E194 /* MarketVC.swift in Sources */,
 				CAAC80DB27FAC7CF007007AB /* HoldingsVC.swift in Sources */,
-				399CCDFC27F0698300796644 /* WinningHistoryModel.swift in Sources */,
 				CABDEFCF27EB383C0093B98C /* ButtonSubClass.swift in Sources */,
 				39923F6727E733930067CE0F /* OtpVC.swift in Sources */,
 				CA39FD7F27F34D8300CC12FD /* PrizebreakupCell.swift in Sources */,
 				CA39FD7627F3491300CC12FD /* LeaderBoardVC.swift in Sources */,
 				CA2CCA5C27F2DA620008AE95 /* CAPSPageMenu+UIConfiguration.swift in Sources */,
+				394248A4280548FC00907B4F /* TransactionHistoryVC.swift in Sources */,
+				394248BA28054EC100907B4F /* WinningHistoryModel.swift in Sources */,
+				394248A7280548FC00907B4F /* AddMoneyVC.swift in Sources */,
 				CAAC80D227FAC4A7007007AB /* OrderVC.swift in Sources */,
 				CA2CCA1927F2CA4B0008AE95 /* HomeTabViewController.swift in Sources */,
 				CA2CCA5D27F2DA620008AE95 /* CAPSPageMenuConfiguration.swift in Sources */,
 				CA39FD6627F2FDC200CC12FD /* LeagueTypeBtnCell.swift in Sources */,
 				CAD9C41C27FB22BC00B7A484 /* HoldingsCell.swift in Sources */,
 				CA356BAA27F56E540023E194 /* WatchListCell.swift in Sources */,
+				394248C02805538800907B4F /* TransactionHoistoryModel.swift in Sources */,
 				CA2CCA3727F2CC690008AE95 /* Sidebar.swift in Sources */,
 				3956717C27E7BABF001C058D /* UserDetailsVC.swift in Sources */,
-				399CCE2A27F06A3800796644 /* WinningHistoryVC.swift in Sources */,
-				399CCE2727F06A3800796644 /* WalletVC.swift in Sources */,
 				CABDEFC827EB38130093B98C /* Encodables.swift in Sources */,
 				CA356BBA27F5E31F0023E194 /* StockAndCryptoModel.swift in Sources */,
 				CA2CCA2127F2CC1C0008AE95 /* PreviouLeagueCell.swift in Sources */,
 				3956717F27E83A0B001C058D /* GradientView.swift in Sources */,
 				CAD8883727F86F5800EBC8BF /* InsideWatchlistVC.swift in Sources */,
-				399CCE2327F06A3800796644 /* TransferToWalletVC.swift in Sources */,
 				CABDEFCA27EB38130093B98C /* StringExtension.swift in Sources */,
-				399CCE2627F06A3800796644 /* TransactionHistoryVC.swift in Sources */,
 				F9A75C7227E58DE700DDC8D5 /* LoginVC.swift in Sources */,
 				CA2CCA3027F2CC4D0008AE95 /* LowBalanceAlertVC.swift in Sources */,
 				CA2CCA2C27F2CC2D0008AE95 /* LeagueCell.swift in Sources */,
+				394248A8280548FC00907B4F /* WinningHistoryVC.swift in Sources */,
 				CA4D10C027EC313800566E16 /* AppConstants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

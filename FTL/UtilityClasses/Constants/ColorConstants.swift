@@ -32,4 +32,6 @@ let cryptoStatusLight = UIColor(red: CGFloat(0.85), green: CGFloat(0.95), blue: 
 let stockStatusDark = UIColor(red: CGFloat(0.6), green: CGFloat(0.31), blue: CGFloat(0.59), alpha: 1.0)
 let stockStatusLight = UIColor(red: CGFloat(1.0), green: CGFloat(0.9), blue: CGFloat(1.0), alpha: 1.0)
 
-
+let loafSuccBg = UIColor(red: 217/255, green: 255/255, blue: 223/255, alpha: 1)
+let loafSucctextColor = UIColor(red: 0/255, green: 128/255, blue: 20/255, alpha: 1)
+let loafErrorBg = UIColor(red: 255/255, green: 235/255, blue: 204/255, alpha: 1)
